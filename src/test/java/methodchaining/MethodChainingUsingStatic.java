@@ -11,8 +11,7 @@ public class MethodChainingUsingStatic {
 
          */
 
-
-        a4().
+         a4().
                 a5().
                 a6();
 
