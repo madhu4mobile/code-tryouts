@@ -7,8 +7,9 @@ import java.util.Locale;
 public class IntroStings {
 
     static String str = "It is my String";
-    static String str2 = "It is my String";
+    static String str2 = "it is my string";
     static String str3 = "It is a different String";
+    static String myNumberAsString = "1285";
 
 
     public static void main(String[] args){
@@ -41,7 +42,17 @@ public class IntroStings {
         System.out.println("str.replace(\"my\",\"our\") = " + str.replace("my","our"));
 
         System.out.println("str.substring(6,12) = " + str.substring(6,12));
-        System.out.println("str.equalsIgnoreCase(str3) = " + str.equalsIgnoreCase(str3));
+        boolean flag = str.equals(str2);
+        System.out.println("string equals flag = " + flag);
+        System.out.println("str.equalsIgnoreCase(str3) = " + str.equalsIgnoreCase(str2));
+
+        int when_string_converted_to_int = Integer.parseInt(myNumberAsString);
+        System.out.println("when_string_converted_to_int with Integer.parseInt(myNumberAsString) = " + when_string_converted_to_int);
+
+        int myInt = 435;
+        System.out.println("when int converted to string using String.valueOf(myInt) = " + String.valueOf(myInt));
+
+
 
 
     
