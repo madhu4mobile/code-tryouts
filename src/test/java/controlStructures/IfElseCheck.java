@@ -10,10 +10,6 @@ public class IfElseCheck {
         IfElseCheck ifElseCheck = new IfElseCheck();
 
        ifElseCheck.ifCheckWithTwoConditions();
-
-
-
-
     }
 
     public void ifCheckWithTwoConditions(){
