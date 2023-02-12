@@ -1,4 +1,4 @@
-package BestPractices;
+package BestPractices.inheritance;
 
 public class InheritanceDemo {
 
