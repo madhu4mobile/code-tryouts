@@ -3,7 +3,7 @@ package Udemy.CodingExcercises.section5;
 
 import java.util.Scanner;
 
-public class Sect5MethodChallenge {
+public class Sect5ChallengeInchesToCm {
 
     public static String displayHighScorePosition(String userName, int playersPosition){
 
