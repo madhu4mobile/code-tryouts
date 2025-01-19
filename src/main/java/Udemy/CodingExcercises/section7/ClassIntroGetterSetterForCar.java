@@ -19,7 +19,6 @@ public class ClassIntroGetterSetterForCar {
                 );
 
     }
-
     public String getMake(){
         return make;
     }
@@ -71,7 +70,6 @@ public class ClassIntroGetterSetterForCar {
     public void setColor(String color) {
         this.color = color;
     }
-
 
     public void setConvertible(boolean convertible) {
         this.convertible = convertible;
